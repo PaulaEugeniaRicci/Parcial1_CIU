@@ -1,0 +1,125 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-nav > li > p {
+  color: #ffffff;
+  font-size: medium;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 5em !important;
+}
+
+.navbar-nav > li > p:hover {
+  color: #9c6850;
+  cursor: pointer;
+}
+
+.background, .background-menu1, .background-menu2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Times New Roman", serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background {
+  height: 64vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0.4)), url("../img/pic1.jpg");
+}
+
+.background-menu1 {
+  height: 35vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("../img/pic4.jpg");
+}
+
+.background-menu2 {
+  height: 35vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("../img/pic5.jpg");
+  background-position: top;
+}
+
+.background-menu1:hover {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.1)), url("../img/pic4.jpg");
+  color: #ffffff;
+  text-shadow:  5px 5px 10px black;
+}
+
+.background-menu2:hover {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.1)), url("../img/pic5.jpg");
+  color: #ffffff;
+  text-shadow:  5px 5px 10px black;
+}
+
+article h5, h3, label {
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+article h1 {
+  color: #9c6d5d;
+  font-family: "Times New Roman", serif;
+}
+
+article p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+footer {
+  color: white;
+  font-size: smaller;
+}
+
+footer span {
+  font-family: "Times New Roman", serif;
+  color: #9c6d5d;
+  font-size: large;
+  font-weight: 500;
+}
+
+.divider {
+  border-top: 2px solid #9c6d5d;
+  width: 4em;
+  margin: 0.7em auto !important;
+}
+
+.wrapper {
+  background-color: #fafafa;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.btn-contact {
+  color: white;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #c6a08a 0%, #a47d69 51%, #8a6351 100%);
+  border-color: transparent;
+}
+
+.btn-contact:hover {
+  color: #a6887b;
+  background-color: white;
+  background-image: none;
+  border: 2px solid #a6887b;
+}
+
+section.dish {
+  padding: 5% 20% 1% !important;
+}
+
+.dish article {
+  border-bottom: 1px solid;
+}
+
+.form-group {
+  padding-top: 0.7em !important;
+}
